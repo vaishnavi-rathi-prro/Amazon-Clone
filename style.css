@@ -1,0 +1,428 @@
+/* ==================== Global Styles ==================== */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ==================== Navbar ==================== */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 120px; /* Increased width to fit both icon + text */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content */
+}
+
+.logo-img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* Address text styles */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* ==================== Search Bar ==================== */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd6f;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* ==================== Navbar Text ==================== */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ==================== Panel ==================== */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* ==================== Hero Section ==================== */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    gap: 12px;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+.warning-msg {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 5px 5px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 900px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/* ==================== Shop Section ==================== */
+.shop-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shop-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 900px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.box-warning {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 0, 0.8);
+    color: black;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.box-cont {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-cont p {
+    color: #007185;
+}
+
+/* ==================== Footer ==================== */
+.footer {
+    margin-top: 15px;
+    color: #0f1111;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff9900;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    justify-content: center;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 180px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.foot-panel5 {
+    background-color: #101418;
+    color: #DDD;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+.pages {
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.copyright {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.student-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 10px 40px;
+}
+
+
+
+/* ==================== Responsive Styles ==================== */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 10px;
+        height: auto;
+    }
+
+    .nav-logo,
+    .nav-address,
+    .nav-sign-in,
+    .nav-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-search {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .search-input {
+        flex: 1;
+    }
+
+    .panel {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .panel-ops {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 5px;
+        column-gap: 12px;
+        font-size: 0.75rem;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .panel-ops p {
+        margin: 0;
+        padding: 4px 6px;
+        background-color: #2a3545;
+        border-radius: 4px;
+    }
+
+    .shop-sec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90% !important;
+        margin-bottom: 20px;
+    }
+
+    .hero-section {
+        background-position: center;
+        height: 200px;
+    }
+
+    .hero-msg {
+        font-size: 0.8rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    ul {
+        margin-top: 30px;
+    }
+
+    .foot-panel3 .logo {
+        margin-top: 20px;
+    }
+
+    .foot-panel4 {
+        font-size: 0.65rem;
+        padding: 10px;
+    }
+
+    .warning-msg, .shop-warning, .student-warning {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .box-warning {
+        font-size: 0.6rem;
+    }
+}
